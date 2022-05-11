@@ -9,6 +9,7 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Point;
 import java.util.ArrayList;
+import javax.swing.BorderFactory;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -50,6 +51,7 @@ public class Ventana030101 extends JFrame {
         this.jPanelList.add(new JPanel());
 
         this.jPanelList.get(0).setBackground(Color.WHITE);
+        this.jPanelList.get(0).setBorder(BorderFactory.createTitledBorder("Panel 0"));
         this.jPanelList.get(1).setBackground(Color.BLACK);
         this.jPanelList.get(2).setBackground(Color.GREEN);
         this.jPanelList.get(3).setBackground(Color.RED);

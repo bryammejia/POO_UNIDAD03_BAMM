@@ -11,7 +11,10 @@ package ups.edu.ec.poo.unidad03.ooms;
 public class Principal030101 {
     public static void main(String[] args) {
         
-        var v = new Ventana030101("Hola Mundo", 1000, 1000 );
+        //var v = new Ventana030101("Hola Mundo", 1000, 1000 );
+        //v.setVisible(true);
+        
+        var v = new Ventana030102("Ventana 2022-05-11");
         v.setVisible(true);
         
     }
