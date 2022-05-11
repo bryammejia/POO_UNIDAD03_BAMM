@@ -11,8 +11,8 @@ package ups.edu.ec.poo.unidad03.ooms;
 public class Principal030101 {
     public static void main(String[] args) {
         
-        var v = new Ventana030101("Hola Mundo", 800, 600 );
-        
+        var v = new Ventana030101("Hola Mundo", 1000, 1000 );
+        v.setVisible(true);
         
     }
     
