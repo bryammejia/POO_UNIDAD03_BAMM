@@ -11,6 +11,7 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.BorderFactory;
+import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -48,15 +49,24 @@ public class Ventana030102 extends JFrame {
 
     public void iniciarEtiquetas() {
         this.jLabelList = new ArrayList<>();
+        
         this.jLabelList.add(new JLabel());
-        this.jLabelList.add(new JLabel());
-        this.jLabelList.add(new JLabel());
-
         this.jLabelList.get(0).setBackground(Color.ORANGE);
         this.jLabelList.get(0).setOpaque(true);
         this.jLabelList.get(0).setText("Electronica y automotizacion");
         this.jPanel1.add(this.jLabelList.get(0));
         var imagen1 = new ImageIcon("C:\\Users\\USER\\Pictures\\electronica_02.jpg");
+        Icon imagenR = new ImageIcon(imagen1.getImage().getScaledInstance(80, 80, 80));
+        this.jLabelList.get(0).setIcon(imagenR);
+        
+        this.jLabelList.add(new JLabel());
+        this.jLabelList.get(1).setBackground(Color.BLUE);
+        this.jLabelList.get(1).setOpaque(true);
+        this.jLabelList.get(1).setText("COMPUTACION");
+        this.jPanel1.add(this.jLabelList.get(1));
+        var imagen2 = new ImageIcon("C:\\Users\\USER\\Pictures\\Libros-de-Computacion.jpg");
+        Icon imagenR2 = new ImageIcon(imagen2.getImage().getScaledInstance(90, 90, 90));
+        this.jLabelList.get(0).setIcon(imagenR2);
         
 
     }
