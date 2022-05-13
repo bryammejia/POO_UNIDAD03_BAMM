@@ -65,9 +65,16 @@ public class Ventana030102 extends JFrame {
         this.jLabelList.get(1).setText("COMPUTACION");
         this.jPanel1.add(this.jLabelList.get(1));
         var imagen2 = new ImageIcon("C:\\Users\\USER\\Pictures\\Libros-de-Computacion.jpg");
-        Icon imagenR2 = new ImageIcon(imagen2.getImage().getScaledInstance(90, 90, 90));
-        this.jLabelList.get(0).setIcon(imagenR2);
+        Icon imagenR2 = new ImageIcon(imagen2.getImage().getScaledInstance(80, 80, 100));
+        this.jLabelList.get(1).setIcon(imagenR2);
         
-
+        this.jLabelList.add(new JLabel());
+        this.jLabelList.get(2).setBackground(Color.CYAN);
+        this.jLabelList.get(2).setOpaque(true);
+        this.jLabelList.get(2).setText("Telecomunicaciones");
+        this.jPanel1.add(this.jLabelList.get(2));
+        var imagen3 = new ImageIcon("C:\\Users\\USER\\Pictures\\tecnologia de telecomunicaciones.jpg");
+        Icon imagenR3 = new ImageIcon(imagen3.getImage().getScaledInstance(80, 80, 100));
+        this.jLabelList.get(2).setIcon(imagenR3);
     }
 }
