@@ -1,4 +1,4 @@
-package ups.edu.ec.poo.unidad03.ooms;
+package semana01;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
